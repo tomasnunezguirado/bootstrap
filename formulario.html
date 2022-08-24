@@ -1,13 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formulario</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navbar navbar-expand-lg decoration">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-inicio" href="./index.html">INICIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-form" aria-current="page" href="./formulario.html">FORMULARIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-cs" href="#">Coming Soon...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-cs" href="#">Coming Soon...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label email">Direccion de correo</label>
+            <input type="email" class="formbg" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 form">
+            <label for="exampleFormControlTextarea1" class="form-label contanos">Contanos, porque deseas adoptar un perrito</label>
+            <textarea class="formbg" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input class="enviar" type="submit" name="Enviar">
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer decoration">
+        <ul class="redes">
+            <h2>REDES</h2>
+            <li><a href="https://www.instagram.com">INSTAGRAM</a></li>
+            <li><a href="https://twitter.com/home">TWITTER</a></li>
+            <li><a href="facebook.com">FACEBOOK</a></li>
+        </ul>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
 
 
 
@@ -34,10 +103,9 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
 </html>

@@ -1,5 +1,96 @@
+/* FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+/* COLORES 
+#323031
+#3D3B3C
+#7F7979
+#C1BDB3
+#5F5B6B
+*/
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+.body {
+    background-color:#323031;
+}
+.main{
+    height: 70%;
+    margin-top: 150px;
+}
+.decoration{
+    background-color: #C1BDB3;
+}
+/* Efectos */
+.nav-inicio:hover{
+    text-decoration: underline;
+}
+.nav-form:hover{
+    text-decoration: underline;
+}
+.nav-cs:hover{
+    text-decoration: line-through;
+}
+
+/* Estilo Cards  */
+.estilo-cards{
+    background-color: #C1BDB3;
+    color: #000000E6;
+}
+.gosmwr{
+    background-color: #7F7979;
+}
+
+/* Footer  */
+.footer{
+    margin-top: 40%;
+}
+
+ul{
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.enviar{
+    margin-left: 350px;
+    background-color:#C1BDB3;
+    color: #000000E6;
+    border-style: none;
+}
+
+
+/* Formulario */
+.email{
+    margin-left: 350px;
+    color: #C1BDB3;
+}
+.contanos{
+    margin-left: 350px;
+    color: #C1BDB3;
+}
+
+.formbg{
+    display: block;
+    margin-left: 350px;
+    width: 60%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000E6;
+    background-color: #C1BDB3;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
 }
